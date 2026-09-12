@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #333;
+    width: 100vw;
+    height: 100vh;
+}
+
+#msg {
+    background-color: #ffa8a8;
+    color: red;
+    display: none;
+}
+
+#enviar {
+    background-color: aquamarine;
+    width: 120px;
+    height: 50px;
+}
