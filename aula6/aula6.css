@@ -6,8 +6,40 @@
 
 body {
     background: #000;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    height: 100vh;
+    width: 100vw;
 }
 
 .container {
-    padding: 10px;
+    padding: 15px;
+    color: white;
+    height: 25vh;
+    width: 25vw;
+    border: 1px solid white ;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.top{ 
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
 }
