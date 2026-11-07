@@ -41,3 +41,4 @@ const y = localStorage.getItem("error"); //null
 
 // y.push() erroooooooo (quebraria o código)
 const z = y === null ? [] : JSON.parse(y); // aceitavel mas não IDEAL (Pesquisar sobre)
+
